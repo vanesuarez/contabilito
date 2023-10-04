@@ -61,15 +61,17 @@
             <label for="inputPrice">Costo en pesos</label>
             <input type="number" class="form-control" id="inputPrice" placeholder="$">
           </div>
+          <br>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
 
        <!-- FORMULARIO 2: PARA MOVIMIENTOS DE MERCADERIAS -->
-
+       <br>
+       <br>
        <h4 id="registerMovements">Registro de movimientos</h4>
 
        <form>
-          <div class="form-group col-md-4">
+          <div class="form-group col-md-6">
             <label for="inputState">Tipo de Transacción:</label>
             <select id="inputState" class="form-control">
               <option selected disabled>Compra/Venta</option>
@@ -94,7 +96,7 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">Cantidad</label>
-            <input type="number" class="form-control" id="inputCity">
+            <input type="number" class="form-control" id="inputCity" placeholder="Cantidad">
           </div>
           <div class="form-row">
             <div class="form-group col-md-6">
@@ -109,10 +111,69 @@
           
           <div class="form-group col-md-6">
             <label for="inputZip">Costo Total</label>
-            <input type="number" class="form-control" id="inputZip">
+            <input type="number" class="form-control" id="inputZip" placeholder="$">
           </div>
         </div>
+        <br>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
+
+    <!-- Muestra el stock -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col border text-center alert alert-secondary">
+            <h2>Identificacion</h2>
+          </div>
+          <div class="col border text-center alert alert-secondary">
+            <h2>Nombre</h2>
+          </div>
+          <div class="col border text-center alert alert-secondary">
+            <h2>Descripcion</h2>
+          </div>
+          <div class="col border text-center alert alert-secondary">
+            <h2>Cant. en stock</h2>
+          </div>
+          <div class="col border text-center alert alert-secondary">
+            <h2>Costo</h2>
+          </div>
+        </div>
+         
+        <div class="row">
+            <div class="col border text-center alert alert-light">
+              <h6>256</h6>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>Ladrillo Hueco</h6>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>Los Ladrillos huecos, también denominados ladrillos no portantes a tubos horizontales, son ladrillos cerámicos utilizados para la ejecución de cualquier tipo de muro no portante para cerramientos o tabiques divisorios y fachadas.</h6>
+            </div>
+            <div class="col border text-center alert alert-success" id="bgGreen">
+              <h4>100</h4>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>$ 200</h6>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col border text-center alert alert-light">
+              <h6>257</h6>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>Ladrillo Hueco Doble</h6>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>El ladrillo hueco doble de 8 reforzado es una pieza cerámica de arcilla cocida no vista con perforación horizontal cilíndrica paralela a la cara de apoyo, de hueco doble y pequeño formato tradicional de medidas 24×11,5×8 cm.</h6>
+            </div>
+            <div class="col border text-center alert alert-danger" id="bgRed" role="alert">
+              <h4>5</h4>
+            </div>
+            <div class="col border text-center alert alert-light">
+              <h6>$ 300</h6>
+            </div>
+          </div>
+        </div>
 </body>
 </html>
