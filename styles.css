@@ -33,20 +33,25 @@ h1 {
 
 @media screen and (max-width: 1200px) {
   #productsContainer div div {
-    min-width: 150px; 
+    min-width: 150px;
+    padding: 1rem 0 
   }
 }
 
-@media screen and (max-width: 985px) {
-  #productsContainer div div {
+@media screen and (max-width: 991px) {
+#productsContainer div div {
     min-width: 120px;
     padding: 1rem 0
   }
+
+#productsContainer h4 {
+    font-size: 15px;
+  }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 770px) {
   #productsContainer div div {
-    min-width: 240px;
+    min-width: 325px;
     padding: 1rem 0
   }
 }
@@ -57,6 +62,13 @@ h1 {
     padding: 1rem 0 
   }
 }
+
+@media screen and (max-width: 475px) {
+    #productsContainer div div {
+      min-width: 200px;
+      padding: 1rem 0 
+    }
+  }
 
 @media screen and (max-width: 415px) {
   #productsContainer div div {
