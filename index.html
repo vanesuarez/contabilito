@@ -37,6 +37,11 @@
                 >Registro Movimientos</a
               >
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#stockControl"
+                >Control de Stock</a
+              >
+            </li>
           </ul>
           <form class="d-flex" role="search">
             <input
@@ -155,7 +160,7 @@
                 placeholder="$" />
             </div>
           
-            <div class="form-group col-md-6">
+            <div class="form-group">
               <label for="inputCity">I.V.A.:</label>
               <input
                 type="number"
@@ -178,31 +183,33 @@
       </div>
     </div>
 
-    <hr />
+    <hr/>
 
-    <!-- Muestra el stock -->
+        <!-- Muestra el stock -->
 
+    <h4 id="stockControl">Control de Stock</h4>
     <div class="container mt-5" id="productsContainer">
+      
       <div class="row">
-        <div class="col border text-center alert alert-secondary">
-          <h4>Identificacion</h4>
+        <div class="title col border text-center alert alert-secondary">
+          <h4 id="idrow">Identificación</h4>
         </div>
-        <div class="col border text-center alert alert-secondary">
+        <div class="title col border text-center alert alert-secondary">
           <h4>Nombre</h4>
         </div>
-        <div class="col border text-center alert alert-secondary">
+        <div class="title col border text-center alert alert-secondary">
           <h4>Descripción</h4>
         </div>
-        <div class="col border text-center alert alert-secondary">
+        <div class="title col border text-center alert alert-secondary">
           <h4>Cant. en stock</h4>
         </div>
-        <div class="col border text-center alert alert-secondary">
+        <div class="title col border text-center alert alert-secondary">
           <h4>Costo</h4>
         </div>
       </div>
 
       <div class="row">
-        <div class="col border text-center alert alert-light">
+        <div class="col border text-center alert alert-primary">
           <p>256</p>
         </div>
         <div class="col border text-center alert alert-light">
@@ -225,7 +232,7 @@
       </div>
 
       <div class="row">
-        <div class="col border text-center alert alert-light">
+        <div class="col border text-center alert alert-primary">
           <p>257</p>
         </div>
         <div class="col border text-center alert alert-light">

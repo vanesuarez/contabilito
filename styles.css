@@ -23,5 +23,56 @@ h1 {
 
 #productsContainer {
     padding: 2rem;
-    background-image: url(img/439391.jpg)
+    background-image: url(img/439391.jpg);
+}
+
+#stockControl {
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+@media screen and (max-width: 1200px) {
+  #productsContainer div div {
+    min-width: 150px;
+    padding: 1rem 0 
+  }
+}
+
+@media screen and (max-width: 991px) {
+#productsContainer div div {
+    min-width: 120px;
+    padding: 1rem 0
+  }
+
+#productsContainer h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #productsContainer div div {
+    min-width: 325px;
+    padding: 1rem 0
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #productsContainer div div {
+    min-width: 400px;
+    padding: 1rem 0 
+  }
+}
+
+@media screen and (max-width: 475px) {
+    #productsContainer div div {
+      min-width: 200px;
+      padding: 1rem 0 
+    }
+  }
+
+@media screen and (max-width: 415px) {
+  #productsContainer div div {
+    min-width: 170px;
+    padding: 1rem 0 
+  }
 }
