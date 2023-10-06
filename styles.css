@@ -1,78 +1,54 @@
 * {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 h1 {
-    text-align: center;
-    background-color: black;
-    padding: 1rem;
-    color: white;
+  text-align: center;
+  background-color: black;
+  padding: 1rem;
+  color: white;
 }
 
-#formProducts {
-    background-color: #f0f0f0; 
-    padding: 3%; 
-    margin-bottom: 2%; 
+/* Estilos para los formularios */
+#formProducts, #formMovements {
+  background-color: #f0f0f0;
+  padding: 3%;
+  margin-bottom: 2%;
 }
 
-#formMovements {
-    background-color: #f0f0f0; 
-    padding: 3%; 
-    margin-bottom: 2%; 
-}
 
 #productsContainer {
-    padding: 2rem;
-    background-image: url(img/439391.jpg);
+  padding: 2rem;
+  background-image: url(img/439391.jpg);
 }
 
 #stockControl {
-    text-align: center;
-    margin-bottom: -40px;
+  text-align: center;
+  margin-bottom: -40px;
 }
 
-@media screen and (max-width: 1200px) {
-  #productsContainer div div {
-    min-width: 150px;
-    padding: 1rem 0 
-  }
+h5 {
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 1%;
 }
 
-@media screen and (max-width: 991px) {
-#productsContainer div div {
-    min-width: 120px;
-    padding: 1rem 0
-  }
-
-#productsContainer h4 {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  #productsContainer div div {
-    min-width: 325px;
-    padding: 1rem 0
-  }
-}
+/* Media queries para hacer la tabla responsive en dispositivos móviles */
 
 @media screen and (max-width: 575px) {
-  #productsContainer div div {
-    min-width: 400px;
-    padding: 1rem 0 
-  }
+#productsContainer .row {
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 475px) {
-    #productsContainer div div {
-      min-width: 200px;
-      padding: 1rem 0 
-    }
-  }
-
-@media screen and (max-width: 415px) {
-  #productsContainer div div {
-    min-width: 170px;
-    padding: 1rem 0 
-  }
+#productsContainer .title h4 {
+  font-size: 1.5rem;
 }
+
+.row {
+  margin: 0.8vh;
+}
+
+}
+
+
